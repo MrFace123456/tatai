@@ -1,0 +1,18 @@
+server:
+  port: 3000
+  address: "127.0.0.1"
+  name: ""
+
+jdk:
+  paths:
+    "JDK 21": "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe"
+
+monitor:
+  enabled: true
+  interval_seconds: 300          # 检测间隔（秒）
+  disk_threshold: 60     # 磁盘告警阈值（%）
+  memory_threshold: 70   # 内存告警阈值（%）
+
+jwt:
+  secret: "tatai-system-jwt-secret-key-2024"
+  expire_hours: 24
